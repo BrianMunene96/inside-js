@@ -1,8 +1,10 @@
 'use strict';
 
+console.log('-- begin --');
+
 // experiment with different values
-const a = _;
-const b = _;
+const a = undefined;
+const b = 100;
 
 // "and" expression
 const andValue = a && b;
@@ -16,3 +18,5 @@ if (Boolean(a) === false) {
 }
 
 console.assert(andValue === conditionalValue, 'always the same!');
+
+console.log('-- end --');

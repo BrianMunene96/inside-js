@@ -1,8 +1,10 @@
 'use strict';
 
+console.log('--begin--');
+
 // experiment with different values
-const a = _;
-const b = _;
+const a = 100;
+const b = '';
 
 // "or" expression
 const orValue = a || b;
@@ -16,3 +18,5 @@ if (Boolean(a) === true) {
 }
 
 console.assert(orValue === conditionalValue, 'always the same!');
+
+console.log('-- end --');
