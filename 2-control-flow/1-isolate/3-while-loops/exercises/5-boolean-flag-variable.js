@@ -27,11 +27,11 @@ let paddedString = 'hi';
 
 // boolean flag variable
 let isLongEnough = false;
-while (_) {
-  paddedString = _;
+while (paddedString.length < 14) {
+  paddedString = paddedString + padding;
   console.log(paddedString);
-  if (_) {
-    _;
+  if (paddedString.length === longEnough) {
+    console.log(paddedString);
   }
 }
 
