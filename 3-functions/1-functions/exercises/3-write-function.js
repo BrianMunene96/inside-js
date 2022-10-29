@@ -38,4 +38,4 @@ function canDrive (age) {
   }
 }
 
-canDrive(30);
+canDrive(17);
